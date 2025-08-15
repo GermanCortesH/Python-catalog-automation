@@ -34,6 +34,14 @@ El objetivo es automatizar este flujo para que sea repetible, confiable y eficie
 ---
 
 ## ⚙️ Desarrollo
+### Requerimientos
+#### Librerias
+ - pip install pillow requests reportlab
+   
+#### Entorno necesario
+ - Servidor Django con endpoints /upload/ y /fruits/
+ - Base de datos conectada
+ - Servidor SMTP local (localhost)
 
 ### Flujo del Proyecto
 
@@ -49,3 +57,4 @@ Proveedor → [Imágenes .tiff + Descripciones .txt]
   report_email.py + reports.py → Genera reporte PDF con peso total  
          ↓  
   emails.py → Envía email al proveedor con PDF adjunto
+
