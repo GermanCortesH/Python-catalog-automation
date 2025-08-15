@@ -20,3 +20,19 @@ Proveedor → [Imágenes .tiff + Descripciones .txt]
          ↓  
   emails.py → Envía email al proveedor con PDF adjunto
 
+----
+## Requerimientos 
+Python 3.6+
+
+# Librerías:
+
+pip install pillow requests reportlab
+
+
+## Entorno necesario:
+
+Servidor Django con endpoints /upload/ y /fruits/.
+
+Base de datos conectada
+
+Servidor SMTP local (localhost).
