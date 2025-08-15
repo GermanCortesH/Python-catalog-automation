@@ -22,17 +22,17 @@ Proveedor → [Imágenes .tiff + Descripciones .txt]
 
 ----
 ## Requerimientos 
-Python 3.6+
+ - Python 3.6+
 
-# Librerías:
+## Librerías:
 
-pip install pillow requests reportlab
+ - pip install pillow requests reportlab
 
 
 ## Entorno necesario:
 
-Servidor Django con endpoints /upload/ y /fruits/.
+ - Servidor Django con endpoints /upload/ y /fruits/.
 
-Base de datos conectada
+ - Base de datos conectada
 
-Servidor SMTP local (localhost).
+ - Servidor SMTP local (localhost).
